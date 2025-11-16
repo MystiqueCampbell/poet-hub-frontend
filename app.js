@@ -1,6 +1,6 @@
 const API_URL = 'https://poet-hub-api.onrender.com';
 
-if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
+if (!window.location.pathname.includes('dashboard.html')) {
     const submitBtn = document.getElementById('submitToken');
     const tokenInput = document.getElementById('tokenInput');
     const errorMsg = document.getElementById('errorMsg');
