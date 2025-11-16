@@ -1,4 +1,4 @@
-const API_URL = 'https://your-render-app.onrender.com';
+const API_URL = 'https://poet-hub-api.onrender.com';
 
 if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
     const submitBtn = document.getElementById('submitToken');
