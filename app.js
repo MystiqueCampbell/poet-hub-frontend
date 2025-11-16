@@ -1,4 +1,4 @@
-const API_URL = 'https://poet-hub-api.onrender.com';
+const API_URL = 'https://poet-hub-api-v2.onrender.com';
 
 // Token gate logic - runs on index page
 if (!window.location.pathname.includes('dashboard')) {
